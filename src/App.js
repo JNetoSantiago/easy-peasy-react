@@ -1,10 +1,8 @@
 import React, { useContext, useEffect } from 'react';
-import logo from './logo.svg';
-import './App.css';
 
-import ApiContext from './components/behavior/ApiContext'
+import ApiContext from '~/components/behavior/ApiContext'
 
-import postService from './services/postService'
+import postService from '~/services/postService'
 import { useStoreActions, useStoreState } from 'easy-peasy';
 
 function App() {
