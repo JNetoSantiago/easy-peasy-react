@@ -2,8 +2,8 @@ import { createStore } from 'easy-peasy'
 
 import model from './../model'
 
-const model = {
+const storeModel = {
     ...model
 }
 
-export const store = createStore(model)
+export const store = createStore(storeModel)
