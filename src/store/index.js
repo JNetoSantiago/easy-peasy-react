@@ -1,6 +1,6 @@
 import { createStore } from 'easy-peasy'
 
-import model from './../model'
+import model from '~/model'
 
 const storeModel = {
     ...model
